@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(fonts/Montserrat-Bold.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Montserrat;
+}
+b, strong, h4 {
+    font-family: Montserrat-Bold;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h4{
+    padding-left:90px;
+    padding-top:30px; 
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    margin-top:0;
+    height: 80px;
+    background-image: url(img/logo-faded.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: 20px 30px;
+    background-position: top left;
+    margin-left: -30px;  
+}
+h3 {
+    font-size: 26px;
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+}
+ul,ol {
+    font-size: 14px;
+}
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 10mm 20mm;
+    margin: 10mm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.page-no {
+    position: absolute;
+    top: 1090px;
+    right: 400px;
+    font-size: 12px;
+}
+.title-page{
+    background-image: url(img/cover.png);
+    background-color: #fff;
+    background-repeat:no-repeat;
+    background-size: 210mm 297mm;
+    background-position: top;
+    width: 210mm;
+    min-height: 297mm;
+    margin: auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+} 
+
+
